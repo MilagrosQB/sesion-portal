@@ -1,0 +1,510 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1.page-header {
+  background: url("../../images/presets/preset1/icon-title-scoller.png") no-repeat scroll left 50%;
+}
+h2.ItemTitle {
+  background: url("../../images/presets/preset1/icon-title-scoller.png") no-repeat scroll top 8px left;
+}
+h2.ItemTitle a {
+  color: #d9230f;
+}
+h2.ItemTitle a:hover {
+  color: #f03e2b;
+}
+a:not(.btn) {
+  color: #7a1408;
+}
+a:not(.btn):hover {
+  color: #d9230f;
+}
+body {
+  color: #6d6d6d;
+}
+body.bg {
+  background: url(../../images/presets/preset1/bg-body.png);
+}
+#sp-top-wrapper .logo {
+  background-image: url(../../images/presets/preset1/logo.png);
+}
+.vina_social ul {
+  margin: 0;
+  padding-bottom: 9px;
+}
+.vina_social ul a {
+  background: #d9230f;
+  border: 4px solid #f46a5a;
+}
+.vina_social ul a:hover {
+  border: 4px solid #d9230f;
+}
+.vina_social ul a:hover em:before {
+  color: #d9230f;
+}
+.vina_social .contact span .icon-envelope {
+  color: #d9230f;
+}
+#sp-main-menu ul.level-0 > li > a:after {
+  background: #d9230f;
+}
+#sp-main-menu ul.level-0 > li:hover > a,
+#sp-main-menu ul.level-0 > li.active > a {
+  color: #fff;
+  border-right: 1px solid #fff;
+}
+#sp-main-menu ul li li:not(.sp-menu-group):hover {
+  background: #d9230f;
+}
+.vina-menu,
+.vina-menu-small {
+  background: #d9230f !important;
+}
+#sp-header-wrapper #sp-search button {
+  background: #d9230f;
+  background: #d9230f;
+  color: #fff;
+}
+#sp-header-wrapper #sp-search button:after {
+  background: #000;
+}
+#sp-header-wrapper #sp-search button:hover,
+#sp-header-wrapper #sp-search button:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+.vina-jssor-image-slider .vina-caption {
+  border-bottom: 5px solid #d9230f;
+}
+.vina-jssor-image-slider .vina-caption.default h3 {
+  color: #d9230f;
+}
+.vina-jssor-image-slider .jssord02l,
+.vina-jssor-image-slider .jssord02r {
+  background-color: #d9230f;
+}
+#sp-position-wrapper .container {
+  background: url("../../images/presets/preset1/bg-container.png");
+}
+#sp-position1 .custom .book .buy-now {
+  background: #d9230f;
+  color: #fff;
+}
+#sp-position1 .custom .book .buy-now:after {
+  background: #000;
+}
+#sp-position1 .custom .book .buy-now:hover,
+#sp-position1 .custom .book .buy-now:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+#sp-users-wrapper .container {
+  background: url("../../images/presets/preset1/bg-container.png");
+}
+#sp-user1 .user-info {
+  text-align: center;
+}
+#sp-user1 .user-info .hi-icon:hover .icons-image-1 {
+  background: url("../../images/bg/icons_1.png") no-repeat scroll 0 50% #d9230f;
+}
+#sp-user1 .user-info .hi-icon:hover .icons-image-2 {
+  background: url("../../images/bg/icons_2.png") no-repeat scroll 0 50% #d9230f;
+}
+#sp-user1 .user-info .hi-icon:hover .icons-image-3 {
+  background: url("../../images/bg/icons_3.png") no-repeat scroll 0 50% #d9230f;
+}
+#sp-user1 .user-info .hi-icon:hover .icons-image-4 {
+  background: url("../../images/bg/icons_4.png") no-repeat scroll 0 50% #d9230f;
+}
+#sp-user1 .user-info .hi-icon .icons-image {
+  border: 5px solid #d9230f;
+}
+#sp-user1 .user-info .hi-icon .icons-image-1 {
+  background: url("../../images/bg/icons_1.png") no-repeat scroll 100% 50% #d9230f;
+}
+#sp-user1 .user-info .hi-icon .icons-image-2 {
+  background: url("../../images/bg/icons_2.png") no-repeat scroll 100% 50% #d9230f;
+}
+#sp-user1 .user-info .hi-icon .icons-image-3 {
+  background: url("../../images/bg/icons_3.png") no-repeat scroll 100% 50% #d9230f;
+}
+#sp-user1 .user-info .hi-icon .icons-image-4 {
+  background: url("../../images/bg/icons_4.png") no-repeat scroll 100% 50% #d9230f;
+}
+.homepage #sp-main-body-wrapper .module {
+  background: url("../../images/presets/preset1/bg-container.png");
+}
+#sp-left .our-services .accordion-group:nth-child(1):hover .collapse:before,
+#sp-left .our-services .accordion-group:nth-child(1).focus .collapse:before {
+  background: url("../../images/bg/accordion-0-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(1) .collapse.in:before {
+  background: url("../../images/bg/accordion-0-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(2):hover .collapse:before,
+#sp-left .our-services .accordion-group:nth-child(2).focus .collapse:before {
+  background: url("../../images/bg/accordion-1-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(2) .collapse.in:before {
+  background: url("../../images/bg/accordion-1-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(3):hover .collapse:before,
+#sp-left .our-services .accordion-group:nth-child(3).focus .collapse:before {
+  background: url("../../images/bg/accordion-2-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(3) .collapse.in:before {
+  background: url("../../images/bg/accordion-2-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(4):hover .collapse:before,
+#sp-left .our-services .accordion-group:nth-child(4).focus .collapse:before {
+  background: url("../../images/bg/accordion-3-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(4) .collapse.in:before {
+  background: url("../../images/bg/accordion-3-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(5):hover .collapse:before,
+#sp-left .our-services .accordion-group:nth-child(5).focus .collapse:before {
+  background: url("../../images/bg/accordion-4-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-left .our-services .accordion-group:nth-child(5) .collapse.in:before {
+  background: url("../../images/bg/accordion-4-hover.png") no-repeat scroll 3% 50% #d9230f;
+}
+#sp-center .custom.vina-carousel .carousel .carousel-control:hover:before,
+#sp-center .custom.vina-carousel .carousel .carousel-control:focus:before {
+  color: #d9230f;
+}
+#sp-right .see-other {
+  background: #d9230f;
+  color: #fff;
+  color: #fff !important;
+}
+#sp-right .see-other:after {
+  background: #000;
+}
+#sp-right .see-other:hover,
+#sp-right .see-other:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+#sp-right .see-other:hover,
+#sp-right .see-other:focus {
+  color: #d9230f !important;
+}
+body:not(.homepage) .sp-vina .header {
+  background: #F8F8F8 url("../../images/presets/preset1/icon-title-scoller.png") no-repeat scroll 15px center;
+  color: #d9230f;
+}
+.sp-vina .header {
+  background: url("../../images/presets/preset1/icon-title-scoller.png") no-repeat scroll left center;
+  color: #d9230f;
+}
+.module.highlighted {
+  background: #3498DB;
+}
+.module.highlighted a {
+  color: #fff !important;
+}
+.page-header {
+  color: #d9230f;
+}
+.page-header a {
+  color: #d9230f;
+}
+.page-header a:hover {
+  color: #f03e2b;
+}
+.progress-striped .bar {
+  background-color: #d9230f;
+}
+#vina_about_us .carousel .item .incon_bg {
+  background: #d9230f;
+}
+#vina_about_us .carousel .carousel-control {
+  color: #d9230f;
+}
+#vina_about_us .carousel:hover .carousel-control:hover {
+  background: #d9230f;
+}
+#vina_about_us .skill ul li {
+  border-left: 2px solid #d9230f;
+}
+#vina_company .img-polaroid .info_team ul li a:hover {
+  background: #d9230f;
+}
+#vina_pricing_table .pricing_table .thumbnail button {
+  background: #d9230f;
+  background: #d9230f;
+  color: #fff;
+}
+#vina_pricing_table .pricing_table .thumbnail button:after {
+  background: #000;
+}
+#vina_pricing_table .pricing_table .thumbnail button:hover,
+#vina_pricing_table .pricing_table .thumbnail button:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+#vina_contact_us ul.social li a {
+  border: 4px solid #f7958a;
+  background: #d9230f;
+}
+#vina_contact_us ul.social li a:hover {
+  border: 4px solid #d9230f;
+}
+#vina_contact_us ul.social li a:hover em {
+  color: #d9230f;
+}
+#vina_contact_us .map span em {
+  color: #d9230f;
+}
+#k2Container .k2ReadMore {
+  background: #d9230f;
+  color: #fff;
+}
+#k2Container .k2ReadMore:after {
+  background: #000;
+}
+#k2Container .k2ReadMore:hover,
+#k2Container .k2ReadMore:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+#k2Container.itemView h1.itemTitle {
+  color: #d9230f;
+}
+#k2Container.itemView .vina-header-toolbar [class^="icon-"],
+#k2Container.itemView .vina-header-toolbar [class*=" icon-"] {
+  color: #d9230f;
+}
+#k2Container.itemView .vina-header-toolbar a:hover {
+  color: #d9230f;
+}
+#k2Container.itemView .itemBackToTop a:hover:before {
+  color: #f03e2b;
+}
+#k2Container.itemView .vina_item_last li:before {
+  color: #d9230f;
+}
+#k2Container.itemView div.itemCommentsForm form input#submitCommentButton {
+  background: #d9230f;
+  color: #fff !important;
+}
+.readmore {
+  background: #d9230f;
+  color: #fff;
+}
+.readmore:after {
+  background: #000;
+}
+.readmore:hover,
+.readmore:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+.category .items-row .item .entry-meta.muted [class^="icon-"],
+.category .items-row .item .entry-meta.muted [class*=" icon-"] {
+  color: #d9230f;
+}
+a.vina-tag {
+  background: #d9230f;
+  color: #fff !important;
+  -webkit-box-shadow: 0 4px 0 0 #a91b0c;
+  -moz-box-shadow: 0 4px 0 0 #a91b0c;
+  box-shadow: 0 4px 0 0 #a91b0c;
+}
+a.vina-tag:hover {
+  background: #d9230f !important;
+}
+a.vina-tag:before {
+  background: #d9230f;
+  -webkit-box-shadow: 0 4px 0 0 #a91b0c;
+  -moz-box-shadow: 0 4px 0 0 #a91b0c;
+  box-shadow: 0 4px 0 0 #a91b0c;
+}
+a.vina-tag:after {
+  -webkit-box-shadow: 3px 3px 0 0 #a91b0c inset;
+  -moz-box-shadow: 3px 3px 0 0 #a91b0c inset;
+  box-shadow: 3px 3px 0 0 #a91b0c inset;
+}
+.vina-icon ul li p:hover i {
+  color: #d9230f;
+}
+.vina-online .header:before {
+  color: #d9230f;
+}
+table.calendar tr td.calendarToday,
+table.calendar tr td.calendarTodayLinked,
+table.calendar tr td.calendarDateLinked a:hover {
+  background: #d9230f;
+}
+.k2CategoriesListBlock li:before {
+  color: #d9230f;
+}
+.k2CategoriesListBlock li:hover a {
+  color: #d9230f;
+}
+.vina-search input[type="text"]:active,
+.vina-search input[type="text"]:focus {
+  -webkit-box-shadow: inset 8px 0 0 #d9230f;
+  -moz-box-shadow: inset 8px 0 0 #d9230f;
+  box-shadow: inset 8px 0 0 #d9230f;
+}
+.vina-search .button {
+  background: #d9230f;
+  color: #fff;
+}
+.vina-search .button:after {
+  background: #000;
+}
+.vina-search .button:hover,
+.vina-search .button:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+.vina-search .button:hover {
+  color: #fff;
+}
+#login-form input:not([type='checkbox']):active,
+#login-form input:not([type='checkbox']):focus {
+  -webkit-box-shadow: inset 8px 0 0 #d9230f;
+  -moz-box-shadow: inset 8px 0 0 #d9230f;
+  box-shadow: inset 8px 0 0 #d9230f;
+}
+#login-form button {
+  background: #d9230f;
+  color: #fff;
+}
+#login-form button:after {
+  background: #000;
+}
+#login-form button:hover,
+#login-form button:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+.icon-color:before {
+  color: #d9230f;
+}
+.vina-news li:before {
+  color: #d9230f;
+}
+#sp-bottom-wrapper .container {
+  background: url("../../images/presets/preset1/bg-container.png");
+}
+#sp-footer-wrapper {
+  color: #fff;
+}
+#sp-footer-wrapper .container {
+  background: #d9230f;
+}
+#sp-footer-wrapper h3 {
+  color: #fff;
+}
+#sp-footer-wrapper a:not(.btn) {
+  color: #fff;
+  font-weight: bold;
+}
+#sp-footer-wrapper a:not(.btn):hover {
+  color: #f7958a;
+}
+.moduleItemReadMore {
+  background: #cccccc;
+  color: #d9230f;
+}
+.moduleItemReadMore:after {
+  background: #d9230f;
+}
+.moduleItemReadMore:hover,
+.moduleItemReadMore:focus {
+  color: #fff !important;
+  background-color: #cccccc;
+}
+.btn-vina {
+  background: #d9230f;
+  color: #fff;
+}
+.btn-vina:after {
+  background: #000;
+}
+.btn-vina:hover,
+.btn-vina:focus {
+  color: #d9230f;
+  background-color: #d9230f;
+}
+.sp-border {
+  border-top: 1px solid #1a0402;
+}
+.sp-border::after {
+  background: #6b1107;
+}
+.rtl h2.ItemTitle {
+  background: url("../../images/presets/preset1/icon-title-scoller.png") no-repeat top 8px right;
+}
+.rtl h1.page-header {
+  background: url("../../images/presets/preset1/icon-title-scoller.png") no-repeat right 4px;
+}
+.rtl .sp-vina .header {
+  background: url("../../images/presets/preset1/icon-title-scoller.png") no-repeat scroll right center;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(1):hover .collapse:before,
+.rtl #sp-left .our-services .accordion-group:nth-child(1).focus .collapse:before {
+  background: url("../../images/bg/accordion-0-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(1) .collapse.in:before {
+  background: url("../../images/bg/accordion-0-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(2):hover .collapse:before,
+.rtl #sp-left .our-services .accordion-group:nth-child(2).focus .collapse:before {
+  background: url("../../images/bg/accordion-1-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(2) .collapse.in:before {
+  background: url("../../images/bg/accordion-1-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(3):hover .collapse:before,
+.rtl #sp-left .our-services .accordion-group:nth-child(3).focus .collapse:before {
+  background: url("../../images/bg/accordion-2-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(3) .collapse.in:before {
+  background: url("../../images/bg/accordion-2-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(4):hover .collapse:before,
+.rtl #sp-left .our-services .accordion-group:nth-child(4).focus .collapse:before {
+  background: url("../../images/bg/accordion-3-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(4) .collapse.in:before {
+  background: url("../../images/bg/accordion-3-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(5):hover .collapse:before,
+.rtl #sp-left .our-services .accordion-group:nth-child(5).focus .collapse:before {
+  background: url("../../images/bg/accordion-4-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+.rtl #sp-left .our-services .accordion-group:nth-child(5) .collapse.in:before {
+  background: url("../../images/bg/accordion-4-hover.png") no-repeat scroll right 10px center #d9230f;
+}
+body:not(.homepage).rtl .sp-vina .header {
+  background: #F8F8F8 url("../../images/presets/preset1/icon-title-scoller.png") no-repeat scroll right 15px center;
+}

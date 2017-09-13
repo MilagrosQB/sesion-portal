@@ -1,0 +1,176 @@
+.contentpane .separation-md {
+	margin-top: 0%;
+    margin-bottom: 1.5%;
+}
+.contentpane .message-register {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.15em;
+    letter-spacing: -1px;
+	line-height: 1.25em;    
+    color: #717171;
+}
+.contentpane .click-here {
+    font-weight: 600;
+    color: #f50e1f;
+    text-decoration: none;
+}
+.contentpane .border-vertical {
+	border-right: 1px solid lightgray;
+}
+.contentpane .title-log-reg {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.35em;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #696969;	
+}
+.contentpane .btn-social-g{
+    display: block;
+    margin: 0% 25%;
+    width: 50%;
+    background-color: #dc4e41;
+    text-decoration: none;
+    border-color: rgba(187, 187, 187, 0);
+    border-radius: 0px;
+	box-shadow: none;
+	outline: none;    
+}
+.contentpane .btn-social-f{
+    display: block;
+    margin: 2% 25%;
+    width: 50%;
+    background-color: #3B5998;
+    text-decoration: none;
+    border-color: rgba(187, 187, 187, 0);
+    border-radius: 0px;
+	box-shadow: none;
+	outline: none;    
+}
+.contentpane i.fa.fa-google{
+    font-size: 2.25em;
+    color: #FFFFFF;
+}
+.contentpane i.fa-facebook-official{
+	font-size: 2.25em;
+	color: #FFFFFF;
+}
+.contentpane .partner-icon{
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1px;
+    vertical-align: super;
+    padding: 3%;
+    color: #FFFFFF;
+}
+.contentpane .padding-md-6{
+	padding: 0% 5%;
+}
+.contentpane .login-label{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #696969;
+    letter-spacing: -1px;	
+}
+.contentpane .btn-login,
+.contentpane .btn-login:hover,
+.contentpane .btn-login:focus,
+.contentpane .btn-login:active,
+.contentpane .btn-login:link,
+.contentpane .btn-login:visited,  
+.contentpane .btn-login[disabled]:hover,
+.contentpane .btn-login:hover,
+.contentpane .btn-login[disabled]:focus,
+.contentpane .btn-login:focus {
+	background-color: #4b4c4e;
+    color: #FFFFFF;
+	text-transform: capitalize;
+	text-decoration: none;
+	box-shadow: none;    
+	outline: none;    
+}
+.contentpane .btn-register,
+.contentpane .btn-register:hover,
+.contentpane .btn-register:focus,
+.contentpane .btn-register:active,
+.contentpane .btn-register:link,
+.contentpane .btn-register:visited,  
+.contentpane .btn-register[disabled]:hover,
+.contentpane .btn-register:hover,
+.contentpane .btn-register[disabled]:focus,
+.contentpane .btn-register:focus {
+	background-color: #FFFFFF;
+	border: none;
+    margin: 0% 1.55%;
+	letter-spacing: -0.5px;
+	color: #ea0001;
+	font-weight: 500;
+	text-transform: capitalize;
+	text-decoration: none;
+	box-shadow: none;    
+	outline: none;
+}
+.contentpane form.form-horizontal {
+    padding: 0% 10%;
+}
+.contentpane label.radio-inline{
+    margin: 2% 10%;
+    text-align: left;
+    font-size: 1.1em;
+}
+#modal-section .modal-dialog {
+	position: absolute;
+	width: 600px;
+	left: 28%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#modal-section .modal-content {
+	position: relative;
+	background-color: #f1f1f1;	
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 0px;
+	font-size: 1.1em;
+	box-shadow: none;	
+}
+#modal-section .modal-content .modal-header {
+	background-color: #4b4c4e;
+	border-bottom: 1px solid #f1f1f1;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 600 !important;
+}
+#modal-section .modal-content .modal-body .reset-info{
+	text-align: justify;
+    letter-spacing: -1px;
+}
+#modal-section .modal-content .modal-footer .btn-cancel,
+#modal-section .modal-content .modal-footer .btn-cancel:hover,
+#modal-section .modal-content .modal-footer .btn-cancel:focus, 
+#modal-section .modal-content .modal-footer .btn-cancel[disabled]:hover,
+#modal-section .modal-content .modal-footer .btn-cancel:hover,
+#modal-section .modal-content .modal-footer .btn-cancel[disabled]:focus,
+#modal-section .modal-content .modal-footer .btn-cancel:focus {
+	color: #808080;
+    font-size: 1.1em;
+    font-weight: 600;	
+	text-decoration: none;
+	outline: none;
+	background-color: transparent;
+}
+#modal-section .modal-content .modal-footer .btn-confirm,
+#modal-section .modal-content .modal-footer .btn-confirm:hover,
+#modal-section .modal-content .modal-footer .btn-confirm:focus, 
+#modal-section .modal-content .modal-footer .btn-confirm[disabled]:hover,
+#modal-section .modal-content .modal-footer .btn-confirm:hover,
+#modal-section .modal-content .modal-footer .btn-confirm[disabled]:focus,
+#modal-section .modal-content .modal-footer .btn-confirm:focus {
+	color: #ea0001;
+	font-size: 1.1em;
+    font-weight: 600;	
+	text-decoration: none;
+	outline: none;
+	background-color: transparent;
+}
